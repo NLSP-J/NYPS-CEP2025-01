@@ -1,0 +1,1 @@
+word_list = ['spade', 'pizza', 'array', 'rapid', 'canal', 'shade', 'fares', 'rough', 'screw', 'waltz', 'spark', 'gnome', 'squat', 'enoki', 'azure', 'ducat', 'xebec', 'igloo', 'shard', 'elite', 'envoy', 'brick', 'zebra', 'cruel', 'emote', 'demon', 'demos', 'bites', 'spicy']
