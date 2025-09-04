@@ -1,4 +1,5 @@
 import pygame
+import asyncio
 # import sys
 import random, time
 from pygame.locals import *
@@ -213,7 +214,7 @@ def reset_game():
 running = True
 game_over = False
 
-def main():
+async def main():
     global running, game_over, remaining_time, timer_active, current_guess, current_row, current_col, elapsed_seconds
 
     while running:
@@ -293,7 +294,8 @@ def main():
         
         pygame.display.flip()
         clock.tick(60)
+        await asyncio.sleep(0)
 
     pygame.quit()
 
-main()
+asyncio.run(main())
